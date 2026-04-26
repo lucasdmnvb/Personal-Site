@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of [Your Name], a developer building modern digital experiences.">
+    <title>Your Name | Developer Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">YN.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                        <span id="theme-icon">🌙</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero container">
+        <h1 class="hero-title">Hi, I'm <br><span>Your Name</span>.</h1>
+        <h2 class="hero-tagline">Building modern digital experiences.</h2>
+        <p class="hero-description">I am a software developer focused on creating clean, elegant, and efficient solutions. I love turning complex problems into simple, beautiful, and intuitive designs.</p>
+        <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>With a background in computer science and a passion for design, I bridge the gap between engineering and aesthetics. I specialize in building scalable web applications and intuitive user interfaces.</p>
+            <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source, or enjoying a good book.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2 class="section-title">Selected Projects</h2>
+        <div class="project-grid">
+            
+            <div class="project-card">
+                <h3>E-Commerce Dashboard</h3>
+                <p>A comprehensive dashboard for merchants to track sales, inventory, and customer analytics in real-time.</p>
+                <div class="tech-stack">
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>PostgreSQL</span>
+                </div>
+                <div class="project-links">
+                    <a href="#">Live Demo &rarr;</a>
+                    <a href="#">GitHub &rarr;</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Task Management API</h3>
+                <p>A RESTful API built for a robust task management system, featuring JWT authentication and role-based access.</p>
+                <div class="tech-stack">
+                    <span>Express</span>
+                    <span>MongoDB</span>
+                    <span>Jest</span>
+                </div>
+                <div class="project-links">
+                    <a href="#">GitHub &rarr;</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Weather App</h3>
+                <p>A minimalist weather application providing real-time forecasts using the OpenWeather API.</p>
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                    <a href="#">Live Demo &rarr;</a>
+                    <a href="#">GitHub &rarr;</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2 class="section-title">Skills & Tools</h2>
+        <div class="skills-wrapper">
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-tags">
+                    <span>HTML5</span><span>CSS3</span><span>JavaScript (ES6+)</span>
+                    <span>React</span><span>TypeScript</span><span>Tailwind CSS</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <div class="skill-tags">
+                    <span>Node.js</span><span>Express</span><span>Python</span>
+                    <span>PostgreSQL</span><span>MongoDB</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Tools</h3>
+                <div class="skill-tags">
+                    <span>Git</span><span>Docker</span><span>Figma</span><span>AWS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-text">I'm currently open for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+        <a href="mailto:hello@yourdomain.com" class="btn btn-primary">Say Hello</a>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Your Name. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
